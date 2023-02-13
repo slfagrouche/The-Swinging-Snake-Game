@@ -4,7 +4,7 @@ package snake;
  * The GameOverState class extends GameState and is used when the game is over.
  * It contains a method for drawing the "Game Over" message on the screen.
  */
-class GameOverState extends GameState {
+public class GameOverState extends GameState {
     GameOverState(GamePanel panel) {
         super(panel);
     }
